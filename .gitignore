@@ -1,0 +1,9 @@
+reports/
+**/__pycache__/
+autoenv/
+.env
+env/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg

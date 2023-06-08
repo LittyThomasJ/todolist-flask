@@ -12,7 +12,6 @@ app = Flask(__name__)
 datetoday = date.today().strftime("%m_%d_%y")
 datetoday2 = date.today().strftime("%d-%B-%Y")
 
-
 #### If this file doesn't exist, create it
 if 'tasks.txt' not in os.listdir('.'):
     with open('tasks.txt','w') as f:
